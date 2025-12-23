@@ -32,6 +32,10 @@ namespace MVC_ADO_CRUD.Controllers
         {
             return View();
         }
+        public IActionResult Update()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
