@@ -32,11 +32,22 @@ namespace MVC_ADO_CRUD.Controllers
         {
             return View();
         }
+        public IActionResult Update()
+        {
+            return View();
+        }
+        public IActionResult Delete()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
         }
-
+        public IActionResult Privacy2()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
