@@ -28,7 +28,10 @@ namespace MVC_ADO_CRUD.Controllers
             homeServices.InsertCustomer(customer);
             return View();
         }
-
+        public IActionResult Privacy1()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
